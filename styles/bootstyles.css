@@ -1,0 +1,79 @@
+.nav {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    color: rgba(230, 167, 86, 0.9);
+}
+
+.h2 {
+    color:white;
+    text-align:center;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px
+}
+
+.grid-item {
+    background-color: #f6e1c5;
+    border: solid 2px rgba(230, 167, 86, 0.9);
+    text-align: center;
+    border-radius: 25px;
+    margin: 15px;
+    width: 500px;
+    
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items:center;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color:#f6e1c5;;
+    position:fixed;
+    top:0;
+    width:100%;
+    text-align:center;
+    
+}
+
+li {
+    display:inline;
+}
+
+div {
+    display:block;
+}
+
+.footer {
+    box-sizing:border-box;
+    background-color:#f6e1c5;
+    padding: 10px;
+    border: 20px;
+    margin: 10px;
+    text-align:center;
+}
+
+.caption {
+    padding:50px;
+    top:100px;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/germany.jpeg);
+    color:rgba(47, 23, 15, 0.9);
+}
+
+h1, .h1 {
+    font-weight: bold;
+}
+
+li {
+    text-align:center;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.ul2 {
+    list-style-type: circle;
+}
+
+.section-heading {
+    text-transform: none;
+}
+
+.anchor {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#mainNav {
+    background-color: rgba(230, 167, 86, 0.9);
+}
+
+#mainNav .navbar-brand {
+    color: rgba(47, 23, 15, 0.9);
+}
+
+.contact {
+    text-align: center;
+}
